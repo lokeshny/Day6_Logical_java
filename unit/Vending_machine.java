@@ -30,13 +30,9 @@ public class Vending_machine {
                 total += totalnote;//total incremented to 2 from 0
                 logger.info("total notes = " + notes[i] + "=" + totalnote);//printing total notes
                 i++;//incrementing i i.e. from (1000 --> notes[0]) to (500 --> notes[1])
-            /* money = 500
-            money/500= 1
-            rem = 500%500==0
-            total also incremented from 2+1=3
-             */
+        
         }
-    }//method ended
+    }
 
 
 }
