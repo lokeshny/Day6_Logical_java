@@ -21,7 +21,7 @@ public class Coupon {
             random /= chars.length;//and decrementing random by divison
         }
 
-        String couponcode = sb.toString();//conversion of array to string
+        String couponcode = sb.toString();
         logger.info("coupon code = " + couponcode);
     }
 }
